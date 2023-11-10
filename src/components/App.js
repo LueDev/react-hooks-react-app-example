@@ -1,4 +1,6 @@
-import React from "react";
+
+//Babel's {runtime: 'automatic'} removes the need to import React in every component to improve build and bundle
+// import React from "react";
 import { format } from "date-fns";
 import ExampleComponent from "./ExampleComponent";
 import TestComponent from "./TestComponent";
